@@ -196,7 +196,7 @@ form{
 .comment button{
     padding: 5px 10px;
     margin: 7px 0;
-    border: 2px solid greyn;
+    border: 2px solid grey;
     border-radius: 8px;
     color: grey;
 }
@@ -209,11 +209,28 @@ form{
 .first{
     background-color: lightblue;
     padding: 62px;
+    
+}
+
+.blogpic1 img{
+    width: 200px;
 }
 
  .second{
     background-color: rgb(173, 230, 195);
     padding: 62px;
+   
+ }
+
+ 
+.blogpic2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ .blogpic2 img{
+    width: 200px;  
  }
 
 footer{
