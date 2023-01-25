@@ -1,0 +1,223 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Palanquin&family=Roboto:wght@100&family=Wendy+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}    
+
+body{
+    background-color: antiquewhite;
+    font-family: 'palanquin', sans-serif;
+    font-size: 120%;
+
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: auto;
+    background-color: aquamarine;
+    border-radius: 200px;
+    
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+header .brand{
+    color: white;
+    font-family: 'kanit', sans-serif;
+    font-size: 170%;
+    padding: 40px;
+
+}
+
+header .brand span{
+    font-family: 'wendy one', sans-serif;
+    font-size: 40%;
+    padding: 20px;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+
+}
+
+.background{
+    background-color: black;
+    background-size: cover;
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 180px;
+    border-radius: 50px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 25px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: yellow;
+}
+
+.rightnav{
+    width: 30%;
+    text-align: right;
+    padding-right: 65px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.button{
+    padding: 5px 10px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: grey;
+
+}
+
+.hero{
+    height: 400px;
+    background-image: url('/bilder/nana.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+content{
+    width: 75%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 55px;
+}
+
+main{
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+aside .section{
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 30px;
+    box-sizing: border-box;
+    height: 70vh;
+}
+
+aside .section h3{
+    background-color: lightsalmon;
+    color: white;
+    padding: 25px;
+    margin-top: 0;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: yellow;
+}
+
+aside ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside a{
+    padding: 10px 0;
+    display: block;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.comment input{
+    padding: 10px;
+}
+
+.comment textarea{
+    width: 1000px;
+    height: 150px;
+    display: block;
+}
+
+.comment button{
+    padding: 5px 10px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: grey;
+}
+
+.comment button:hover{
+    color: grey;
+    background: lightskyblue;
+}
+
+.first{
+    background-color: lightblue;
+    padding: 62px;
+}
+
+ .second{
+    background-color: rgb(173, 230, 195);
+    padding: 62px;
+ }
+
+footer{
+    background: rgba(0, 0, 0, 0.500);
+    color: white;
+    text-align: center;
+    display: block;
+    clear: both;
+    padding: 25px;
+}
